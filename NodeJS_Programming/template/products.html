@@ -1,0 +1,25 @@
+<section class="py-5">
+    <div class="container">
+        <header class="mb-4">
+            <h3>New products</h3>
+        </header>
+        
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card product-card h-100">
+                    <img src="{{%IMAGE%}}" class="card-img-top" alt="Product" style="aspect-ratio: 1 / 1;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{%NAME%}}</h5>
+                        <p class="card-text">{{%PRICE%}}</p>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-primary me-1">Add to cart</a>
+                            <a href="/products?id={{%ID%}}" class="btn btn-primary me-1">Details</a>
+                            <!-- <a href="#" class="btn btn-outline-secondary"><i class="fas fa-heart"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
