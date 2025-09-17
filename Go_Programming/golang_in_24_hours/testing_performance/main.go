@@ -5,7 +5,9 @@ package main
 
 import (
 	"fmt"
+	"main/stringconcatenation"
 	"testing"
+	// "main.go/stringconcatenation"
 )
 
 func translate(s string) string {
@@ -43,4 +45,5 @@ func TestUSTranslation(t *testing.T) {
 
 func main() {
 	fmt.Println("Hello World")
+	stringconcatenation.StringFromAssignment(10)
 }
