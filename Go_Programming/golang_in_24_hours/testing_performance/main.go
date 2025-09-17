@@ -45,5 +45,5 @@ func TestUSTranslation(t *testing.T) {
 
 func main() {
 	fmt.Println("Hello World")
-	stringconcatenation.StringFromAssignment(10)
+	fmt.Println(stringconcatenation.StringFromAssignment(10))
 }
